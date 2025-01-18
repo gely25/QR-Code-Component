@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+body{
+    background-color:  hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: Outfit;
+   
+}
+
+.contenedor{
+    flex: 1;
+    display: flex; /*asegura que apesar de que magin-auto empuja este ocupe el espaico disponible todo */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.card {        
+    background-color: hsl(0, 0%, 100%);
+    width: 90%;
+    max-width: 375px;
+    padding: 18px;
+    border-radius: 15px;
+}
+
+.card img{
+  
+   width: 100%; /* Evita el overflow . Adapto la imagen al ancho de su padre despues se arregla con un padding*/
+   border-radius: 18px;
+   height: auto;
+}
+
+
+
+h1, p{
+    text-align: center;
+
+}
+
+.card .text p{
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+   
+    padding: 0 25px; /* nuevo */
+}
+
+
+
+.card h1{
+    font-weight: 700;
+    color:  hsl(218, 44%, 22%);
+    font-size: 20px;
+    margin: 20px;
+}
+
+.text{
+    width: 100%;
+  
+}
+
+
+.attribution{
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: black;
+
+}
+
