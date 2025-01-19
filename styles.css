@@ -25,7 +25,7 @@ body{
 
 .contenedor{
     flex: 1;
-    display: flex; /*asegura que apesar de que magin-auto empuja este ocupe el espaico disponible todo */
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -43,7 +43,7 @@ body{
 
 .card img{
   
-   width: 100%; /* Evita el overflow . Adapto la imagen al ancho de su padre despues se arregla con un padding*/
+   width: 100%; 
    border-radius: 18px;
    height: auto;
 }
